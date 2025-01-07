@@ -1,0 +1,405 @@
+body
+{ 
+    background-image: url("img/fondo.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% ;
+    font-family: rockwell ;
+    font-style: none ; 
+    color:whitesmoke ; 
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.cabecera
+{ 
+    width: 100% ; 
+    height: 100px; 
+    display:grid ; 
+    text-align: center ; 
+    background-color: black ;
+    position:relative ; top:-20px ; left:0px ;
+    margin:0px ;
+    position:fixed ;
+    z-index:3 ;
+
+}
+
+
+ 
+.logo1 
+{   
+    max-width: 180px;
+    max-height: 180px ;
+    border-radius: 6em 6em;
+    float:left; 
+    position:absolute ; top: 0px;  left:50px ;
+    z-index:2  
+} 
+
+.deco
+{
+
+    background-color: rgb(255, 255, 255) ;
+    color:black ;
+    font-size: 34px ;
+    width: 100%;
+    border-radius: 0em 0em 6em 6em ; 
+    position:absolute ; top:80px ; left:0px ;
+    height: 100px;
+    place-content: center ;
+
+}
+
+.titi
+{
+    display:grid ;
+    place-content:center ;
+    background-color: none;
+
+}
+
+
+.barra 
+{
+    font-style: none ; 
+    font-size: 34px; 
+    color:white ; 
+    background-color: #000000 ; 
+    height: 50px ;
+    width: 100% ;  
+    padding-top:10px ; 
+    padding-bottom:20px ; 
+    position:absolute ; top:20px ; left:0px ; 
+    z-index:1; margin-left: 50px ;  
+    place-content: center ;
+}
+
+.bloques 
+{ 
+    position:absolute ; top:300px  ; 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 85% ;
+    row-gap: 50px ;
+    min-height: 2400px;
+    font-family: rockwell ;
+    margin:auto ;
+    height: auto;
+
+
+}
+
+
+.linkca 
+
+{
+    font-style:none ; 
+    color:whitesmoke ; 
+    font-size: 24px ;
+    text-decoration:none ; 
+    margin:10px  ; 
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out ;
+
+}
+
+.linkca:hover 
+
+{
+    font-style:none ; 
+    color:whitesmoke ; 
+    font-size: 34px ;
+    text-decoration:none ; 
+    margin:10px  ; 
+
+}
+
+.presentacion
+{
+    
+    font-size:16px ; 
+    color:rgb(0, 0, 0) ;
+    border:solid ; 
+    border-radius: 2em ; 
+    border:#e5e8eb ;
+    background-color: #ffffff; 
+    width:79% ;
+    display:grid ;
+    place-content:center ;
+    padding-top:50px ;
+    padding-bottom:50px ;
+    padding-left: 50px ;
+    padding-right:50px ;
+    box-shadow: inset 5px 5px 5px 5px  #0c01016d ;
+    font-family: rockwell ;
+    text-align: justify;
+    margin:auto ;
+    
+}
+
+.bloque1 
+{
+    
+    font-size:24px ; 
+    color:rgb(0, 0, 0) ;
+    border:solid ; 
+    border-radius: 2em ; 
+    border:#e5e8eb ;
+    background-color: #ffffff; 
+    width:100%;
+    display: grid;
+    place-content:center ;
+    padding-top:50px ;
+    padding-bottom:50px ;
+    padding-left:0px ;
+    padding-right:0px ;
+    box-shadow: inset 5px 5px 5px 5px  #0c01016d ;
+
+
+
+}
+
+
+.not 
+{ 
+    text-decoration: none ;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: white ;
+    font-size: 15px ; 
+    float:left ;
+    width: 140px ;
+    margin-right: 40px ;
+    margin-left: 40px ;
+    margin-top:10px ; 
+    border:none ;
+    display:grid ;
+    text-align: center ; 
+    padding:20px ;
+    margin-bottom:60px ;
+    height: 250px ;
+    row-gap: 15px ; 
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 2em;
+    position:relative ; top:40px ;
+    box-shadow: 5px 5px 5px 5px  #0c01016d;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out ;
+
+
+}
+
+.not:hover
+{
+    
+    text-decoration: none ;
+    font-size: 15px ; 
+    float:left ;
+    width: 140px ;
+    margin-right: 40px ;
+    margin-left: 40px ;
+    margin-top:10px ; 
+    border:none ;
+    display:grid ;
+    text-align: center ; 
+    padding:20px ;
+    height: 250px ;
+    row-gap: 15px ;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 2em;
+    position:relative ; top:40px ; 
+    margin-bottom:60px ;
+    box-shadow:5px 5px 5px 5px #0c01013e ;
+    position:relative ; top:20px ; 
+    transform: scale(1.1);
+
+}
+
+.imgb1
+{
+   
+    width: 140px ;
+    height: 180px ;
+    display:grid ;
+    place-content:center ;
+    margin:auto;
+    border-radius: 2em;
+
+ 
+}
+
+.imgb2
+{
+   
+    width: 40% ;
+    height: auto;
+    display:grid ;
+    place-content:center ;
+    margin:auto;
+    border-radius: 2em;
+    float: right ; 
+
+ 
+}
+
+.center
+{
+    text-align: center;
+}
+
+.texte
+{
+    float:left ;
+    width: 50% ;
+}
+
+.textimg 
+{
+    column-gap: 10px;
+    display: flex;
+
+}
+
+.text
+{
+    width: 180px ;
+    display:grid ;
+    place-content:center ;
+    margin-left:5px ;
+    margin-right: 5px ;
+    font-family: rockwell ;
+   
+   
+
+
+}
+
+.titbloques
+{
+    text-align: center;
+    font-size: 36;
+    font-family: rockwell ;
+    position: relative ; bottom:20px ; 
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.59);
+   
+}
+
+footer
+{
+    width: 100% ;
+    background-color: #ffffff;
+    height: 20px ;
+    border-top:1px ;
+    margin:0px ;
+    color: grey ; 
+    text-align: center ;
+    text-justify: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px ;
+    position:absolute ; bottom:0px ; right: 0px ;
+    position: fixed ;
+    font-size:small ; 
+
+
+}
+
+.lkcola
+
+{
+    text-decoration: none;
+    color: grey
+}
+
+.logoca
+{
+    width:200px;
+    height:200px ;
+    float:left; 
+    position:absolute ; top: 0px;  right:10px ;
+    z-index:2  
+}
+
+.tops
+
+{
+    position:absolute ; top:300px  ; left:15% ;
+    display: flex;
+    flex-wrap:wrap;
+    width: 80% ;
+    row-gap: 100px ;
+    font-family: rockwell ;
+}
+
+.topes
+{
+    font-size:16px ; 
+    color:rgb(0, 0, 0) ;
+    border:solid ; 
+    border-radius: 2em ; 
+    border:#e5e8eb ;
+    background-color: #ffffff; 
+    width:30% ;
+    margin:2% ;
+    display:grid ;
+    place-content:center ;
+    justify-content: center;
+    position: relative ; left: 10% ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left: 10px ;
+    padding-right:10px ;
+    box-shadow: inset 5px 5px 5px 5px  #0c01016d ;
+    font-family: rockwell ;
+    text-align: justify;
+    text-align: center ;
+
+}
+
+.litop li
+{
+    list-style-type: none;
+    margin-bottom: 10px ;
+
+
+
+}
+.litop
+{
+    position:relative ; right: 18px ;
+
+}
+
+.prim
+{
+    background-color: gold;
+    scale: 1.5 ;
+    border-radius: 2em 2em 2em 2em ;
+    
+    
+}
+
+.sec
+{
+    background-color: silver ;
+    scale: 1.3 ;
+    border-radius: 2em 2em 2em 2em ;
+   
+}
+
+.ter 
+{
+    background-color:#B87333;
+    scale: 1.1 ;
+    border-radius: 2em 2em 2em 2em ;
+    
+}
+
+
+
