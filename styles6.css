@@ -1,0 +1,147 @@
+body {
+    font-family: 'Big Shoulders Inline', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size:32px;
+}
+
+header {
+    background-color: #d35400;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    width: 60%;
+    position:absolute ; top:50px ;
+    border-radius: 9px;
+}
+
+nav {
+    background-color: #e67e22;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0px 0px 9px 9px  ;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #bf360c;
+    border-radius: 0px;
+
+}
+
+main {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    position:absolute ; top:300px;
+}
+#tema6 a {
+    text-decoration: none;
+    color:white;
+    background-color: #d35400;
+    border-radius: 7px;
+    padding: 12px;
+    width: 100px;
+    transition: transform 0.2s ;
+
+}
+
+#derechos-deberes a {
+    text-decoration: none;
+    color:white;
+    background-color: #d35400;
+    border-radius: 7px;
+    padding: 12px;
+    width: 100px;
+    transition: transform 0.2s ;
+
+}
+
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 5px solid #d35400;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #d35400;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+table {
+    border:#d35400 3PX solid;
+    border-radius: 7px;
+
+
+
+}
+table tr {
+    width: 50%;
+    border:#d35400 1px solid;
+
+
+}
+
+table tr td {
+    width: 50%;
+    border:#d35400 1px solid;
+
+}
+
+.tit {
+    text-align: center;
+}
+
+#tema6 p a {
+    text-decoration: none;
+    color:#e67e22;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 12px;
+    width: 100px;
+    transition: transform 0.2s ;
+    font-style: italic;
+
+}
