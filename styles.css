@@ -68,9 +68,10 @@ main {
     
 }
 
+
 main section h2 {
 
-    position:absolute ; top:0px; left:0px;
+    position:absolute ; top:0px; left:20px;
     translate: 0 0;
 }
 
